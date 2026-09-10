@@ -1,0 +1,320 @@
+{
+  "source_repository": "https://github.com/congde/CodexFDE.git",
+  "source_head": "5a7656454f819d07774f9818830d06ae2f3eebcb",
+  "source_worktree": "Current local source including uncommitted changes; fingerprints identify copied inputs.",
+  "files": [
+    {
+      "source": "flowerp/__init__.py",
+      "target": "flowerp/__init__.py",
+      "source_sha256": "41230f1b10a6d87f714600aff5fdaef7acda996f2c3f412be010115620883b75",
+      "target_sha256": "41230f1b10a6d87f714600aff5fdaef7acda996f2c3f412be010115620883b75"
+    },
+    {
+      "source": "flowerp/accounting.py",
+      "target": "flowerp/accounting.py",
+      "source_sha256": "8229717cadf9c3dcab4049157460629af2e75d39cbe18a106bd73aa6de6da66a",
+      "target_sha256": "8229717cadf9c3dcab4049157460629af2e75d39cbe18a106bd73aa6de6da66a"
+    },
+    {
+      "source": "flowerp/alerts.py",
+      "target": "flowerp/alerts.py",
+      "source_sha256": "02eadc52b7b5613178f211e9cfc20c6f4b54e059c61f726b417920999fdb8c4d",
+      "target_sha256": "02eadc52b7b5613178f211e9cfc20c6f4b54e059c61f726b417920999fdb8c4d"
+    },
+    {
+      "source": "flowerp/audit.py",
+      "target": "flowerp/audit.py",
+      "source_sha256": "0891e90be1b2df477c22cb9459add2142d5f24b9b9b517943352aa42dee9fcf6",
+      "target_sha256": "0891e90be1b2df477c22cb9459add2142d5f24b9b9b517943352aa42dee9fcf6"
+    },
+    {
+      "source": "flowerp/cash_management.py",
+      "target": "flowerp/cash_management.py",
+      "source_sha256": "b4baf7cb4c520d81f33a1ecdc3623bbe707a909dd391f43aa8e41b39aca830c8",
+      "target_sha256": "b4baf7cb4c520d81f33a1ecdc3623bbe707a909dd391f43aa8e41b39aca830c8"
+    },
+    {
+      "source": "flowerp/channels.py",
+      "target": "flowerp/channels.py",
+      "source_sha256": "b2e8bc433b6234d4c24ae697c12f878469d8171021ffae5c80df1b40db538308",
+      "target_sha256": "b2e8bc433b6234d4c24ae697c12f878469d8171021ffae5c80df1b40db538308"
+    },
+    {
+      "source": "flowerp/config.py",
+      "target": "flowerp/config.py",
+      "source_sha256": "c1f57463d6a39afd78fdcd73ac916b36430dc4e860edcb36108bfc2bd1651fb8",
+      "target_sha256": "c1f57463d6a39afd78fdcd73ac916b36430dc4e860edcb36108bfc2bd1651fb8"
+    },
+    {
+      "source": "flowerp/demo.py",
+      "target": "flowerp/demo.py",
+      "source_sha256": "a17b2536046e08392979efff9cf9b406ff0a3b1825665c7cb4fe5b3a3a528508",
+      "target_sha256": "a17b2536046e08392979efff9cf9b406ff0a3b1825665c7cb4fe5b3a3a528508"
+    },
+    {
+      "source": "flowerp/finance.py",
+      "target": "flowerp/finance.py",
+      "source_sha256": "3b465ab2113eb62dfefe402eb40c4e3a393062ae9862002149b53fc73fd197b8",
+      "target_sha256": "3b465ab2113eb62dfefe402eb40c4e3a393062ae9862002149b53fc73fd197b8"
+    },
+    {
+      "source": "flowerp/idempotency.py",
+      "target": "flowerp/idempotency.py",
+      "source_sha256": "150514bd8e85fae0f19767a96cde88d9304dc6c576c4c38d0894631b06b8fdba",
+      "target_sha256": "150514bd8e85fae0f19767a96cde88d9304dc6c576c4c38d0894631b06b8fdba"
+    },
+    {
+      "source": "flowerp/identity.py",
+      "target": "flowerp/identity.py",
+      "source_sha256": "3c1bf26dcb9e17664fbe6c9d62dd4ebcf7cb37b5dfe10120b8cbdb714370afb1",
+      "target_sha256": "3c1bf26dcb9e17664fbe6c9d62dd4ebcf7cb37b5dfe10120b8cbdb714370afb1"
+    },
+    {
+      "source": "flowerp/import_export.py",
+      "target": "flowerp/import_export.py",
+      "source_sha256": "b1f8023c6298427c728041f3ff9559354617429919b3b8bb66aea2b0f20bd65c",
+      "target_sha256": "b1f8023c6298427c728041f3ff9559354617429919b3b8bb66aea2b0f20bd65c"
+    },
+    {
+      "source": "flowerp/inventory.py",
+      "target": "flowerp/inventory.py",
+      "source_sha256": "5c1b0665faeb8dbc812cd2cd83f5857fe3a5e4259d5a5db5f5ba952bc5d92408",
+      "target_sha256": "5c1b0665faeb8dbc812cd2cd83f5857fe3a5e4259d5a5db5f5ba952bc5d92408"
+    },
+    {
+      "source": "flowerp/inventory_export.py",
+      "target": "flowerp/inventory_export.py",
+      "source_sha256": "602f3a0a400817b65c2313017718ea2c242a40022af8df20487648fee32f4c00",
+      "target_sha256": "602f3a0a400817b65c2313017718ea2c242a40022af8df20487648fee32f4c00"
+    },
+    {
+      "source": "flowerp/master_data.py",
+      "target": "flowerp/master_data.py",
+      "source_sha256": "5d9ea987e34f136bc01f9dabfbca099633c31ec36fb94cd67e407819d087523d",
+      "target_sha256": "5d9ea987e34f136bc01f9dabfbca099633c31ec36fb94cd67e407819d087523d"
+    },
+    {
+      "source": "flowerp/mock_data.py",
+      "target": "flowerp/mock_data.py",
+      "source_sha256": "31ee7c9722dd2e629b48abeceb8732badd78d12c07e57881489d9ee93ec3579d",
+      "target_sha256": "31ee7c9722dd2e629b48abeceb8732badd78d12c07e57881489d9ee93ec3579d"
+    },
+    {
+      "source": "flowerp/models.py",
+      "target": "flowerp/models.py",
+      "source_sha256": "9084d4b2f1b1aceacdb25e121a7664414ea792596891b1fe1c62350afb1f34d6",
+      "target_sha256": "9084d4b2f1b1aceacdb25e121a7664414ea792596891b1fe1c62350afb1f34d6"
+    },
+    {
+      "source": "flowerp/numbering.py",
+      "target": "flowerp/numbering.py",
+      "source_sha256": "ef52e690c7dffef3ff0fa06b4fb49897881f91e685a4fc6d271e156f0e0da7a5",
+      "target_sha256": "ef52e690c7dffef3ff0fa06b4fb49897881f91e685a4fc6d271e156f0e0da7a5"
+    },
+    {
+      "source": "flowerp/operations.py",
+      "target": "flowerp/operations.py",
+      "source_sha256": "2e4717a3947f447c6325628d58f4e44978944989e4e846795494066b0c6cf154",
+      "target_sha256": "2e4717a3947f447c6325628d58f4e44978944989e4e846795494066b0c6cf154"
+    },
+    {
+      "source": "flowerp/partners.py",
+      "target": "flowerp/partners.py",
+      "source_sha256": "336e127893441e07040d8463f3e9853dd872b9ca0fb368734f4e06a2139508fc",
+      "target_sha256": "336e127893441e07040d8463f3e9853dd872b9ca0fb368734f4e06a2139508fc"
+    },
+    {
+      "source": "flowerp/pricing.py",
+      "target": "flowerp/pricing.py",
+      "source_sha256": "430d0597b25240dcd40e317518122e623d831c04273097dae31f66401715fe68",
+      "target_sha256": "430d0597b25240dcd40e317518122e623d831c04273097dae31f66401715fe68"
+    },
+    {
+      "source": "flowerp/purchasing.py",
+      "target": "flowerp/purchasing.py",
+      "source_sha256": "2dc6ae757ca736580f1124fd37bb888351f01602ccffdaf78369fd65a0cfd161",
+      "target_sha256": "2dc6ae757ca736580f1124fd37bb888351f01602ccffdaf78369fd65a0cfd161"
+    },
+    {
+      "source": "flowerp/reconciliation.py",
+      "target": "flowerp/reconciliation.py",
+      "source_sha256": "cc062a365567eea567b19b1271af95eb1c67d63ee4112915f3b6f6ef6bd4bd16",
+      "target_sha256": "cc062a365567eea567b19b1271af95eb1c67d63ee4112915f3b6f6ef6bd4bd16"
+    },
+    {
+      "source": "flowerp/reports.py",
+      "target": "flowerp/reports.py",
+      "source_sha256": "f0ecbb7304847b756ea6806c264edb173d52ef5a06383554c7a4f8a3de0ca254",
+      "target_sha256": "f0ecbb7304847b756ea6806c264edb173d52ef5a06383554c7a4f8a3de0ca254"
+    },
+    {
+      "source": "flowerp/sales.py",
+      "target": "flowerp/sales.py",
+      "source_sha256": "bc2d163c2655aaad977a0f5204340645679303f93c6d24ca5981e3eb90816921",
+      "target_sha256": "bc2d163c2655aaad977a0f5204340645679303f93c6d24ca5981e3eb90816921"
+    },
+    {
+      "source": "flowerp/schema_extensions.py",
+      "target": "flowerp/schema_extensions.py",
+      "source_sha256": "49f2cf7390c5e642f93b878d55ee3a62f1f319c42c6da6fa43ff2f0b90e5ba01",
+      "target_sha256": "49f2cf7390c5e642f93b878d55ee3a62f1f319c42c6da6fa43ff2f0b90e5ba01"
+    },
+    {
+      "source": "flowerp/schema_v2.py",
+      "target": "flowerp/schema_v2.py",
+      "source_sha256": "05812df6977fd58b52ba51bf3c30fca98663dfe30c39427baff11855d8de9f56",
+      "target_sha256": "05812df6977fd58b52ba51bf3c30fca98663dfe30c39427baff11855d8de9f56"
+    },
+    {
+      "source": "flowerp/seed.py",
+      "target": "flowerp/seed.py",
+      "source_sha256": "31c3367beed246248b77662ec5f902eaaa916d18e1bda4c19375e55d60f11d75",
+      "target_sha256": "31c3367beed246248b77662ec5f902eaaa916d18e1bda4c19375e55d60f11d75"
+    },
+    {
+      "source": "flowerp/serials.py",
+      "target": "flowerp/serials.py",
+      "source_sha256": "5b3ec91894b8d0a80e4830b82971f9e01deb4701488cc4af8ccfdaebbb185d99",
+      "target_sha256": "5b3ec91894b8d0a80e4830b82971f9e01deb4701488cc4af8ccfdaebbb185d99"
+    },
+    {
+      "source": "flowerp/service.py",
+      "target": "flowerp/service.py",
+      "source_sha256": "6c372dcd105c2c476bbbb76b97abaf6edfbbac233cc7cfb7567a73052325385a",
+      "target_sha256": "6c372dcd105c2c476bbbb76b97abaf6edfbbac233cc7cfb7567a73052325385a"
+    },
+    {
+      "source": "flowerp/store.py",
+      "target": "flowerp/store.py",
+      "source_sha256": "fb2ff7976b3459718c20dd0e23d5bac5b64f5e70a82c204146b978abea6bc311",
+      "target_sha256": "fb2ff7976b3459718c20dd0e23d5bac5b64f5e70a82c204146b978abea6bc311"
+    },
+    {
+      "source": "web/index.html",
+      "target": "web/index.html",
+      "source_sha256": "4e81ac83d8cc98bd99e91b8f00fd9a24b1e72d41457b0ff3aad03f43ceb28499",
+      "target_sha256": "37eb35cc71d261f8c99671e024345ecc2ed280e2c43f9570980aa9c06d8ed0be"
+    },
+    {
+      "source": "web/app.js",
+      "target": "web/app.js",
+      "source_sha256": "2f6288b0dfdd3d0c102b1df4051afc567647eda5adff40698d7a0030d5d5f0e1",
+      "target_sha256": "85d5cb49712fdd063ceffc99bb6a49e221f63516bac3b972dd1a4b4ac5514a6f"
+    },
+    {
+      "source": "web/styles.css",
+      "target": "web/styles.css",
+      "source_sha256": "4dc9eb041f9e3345c71b2c173b8e58c21f5645b05da438250a2c0733efe447c3",
+      "target_sha256": "4dc9eb041f9e3345c71b2c173b8e58c21f5645b05da438250a2c0733efe447c3"
+    },
+    {
+      "source": "web/AGENTS.md",
+      "target": "web/AGENTS.md",
+      "source_sha256": "383b3060505867b3db427eac02267cedad87241cf80054779d15fc6a721c39c0",
+      "target_sha256": "383b3060505867b3db427eac02267cedad87241cf80054779d15fc6a721c39c0"
+    },
+    {
+      "source": "LICENSE",
+      "target": "LICENSE",
+      "source_sha256": "624aca6a1d27516523f258c41d1de63b7f1b704217abe049c4f0dd46b2c6bc37",
+      "target_sha256": "624aca6a1d27516523f258c41d1de63b7f1b704217abe049c4f0dd46b2c6bc37"
+    },
+    {
+      "source": "workbench/http_bind.py",
+      "target": "flowerp/http_bind.py",
+      "source_sha256": "38f36ceb00ed852c56f9bbdc88c8cd4540cbf3f11fad7b28413e1bd14bd43408",
+      "target_sha256": "38f36ceb00ed852c56f9bbdc88c8cd4540cbf3f11fad7b28413e1bd14bd43408"
+    },
+    {
+      "source": "tests/test_flowerp.py",
+      "target": "tests/test_flowerp.py",
+      "source_sha256": "ecaf5411515fbc31b1e33dfc2c99d905345b41446d9f28a8ff37218da0eafac4",
+      "target_sha256": "413abcb863402b44c0c5750c53fa0888634aee12432622e1a3b25a21ad352012"
+    },
+    {
+      "source": "tests/test_production_erp.py",
+      "target": "tests/test_production_erp.py",
+      "source_sha256": "b72c7619c8c42bae2b51b9988f68cbfc94a98a9907e6097b6e652caa03237196",
+      "target_sha256": "904033af2958ae20846430d8fbf30eb609e2b8da5fa4c27c4d8ad5df5bb5d6c5"
+    },
+    {
+      "source": "tests/test_channels.py",
+      "target": "tests/test_channels.py",
+      "source_sha256": "c91deb35814b5321a9bae7ab7f07dddcd50e45c67543e68026f7def1af04657d",
+      "target_sha256": "c703fe79084947deafc779e56b1d289f2383a5ebab408fcf6d0a5f49c73ba7e8"
+    },
+    {
+      "source": "tests/test_purchase_reconciliation.py",
+      "target": "tests/test_purchase_reconciliation.py",
+      "source_sha256": "bd9de2b4c21546fd8a4686c911ce3c5ecd010d97a12f75e4126f17fde88a18ca",
+      "target_sha256": "f41335f0b1d3a8a73bdc59d4bc3d92a4a2640e0111e98e549072aee162d37418"
+    },
+    {
+      "source": "tests/test_inventory_empty_export.py",
+      "target": "tests/test_inventory_empty_export.py",
+      "source_sha256": "787199e50801fe509a68784e169d6a829e2c94ea3d3f4bfec0679a1c3adf47dc",
+      "target_sha256": "672abf5c6234664a89e439a97fb5a4fd06c1091b719feee9c7516b45252c23fe"
+    },
+    {
+      "source": "tests/test_http_api.py",
+      "target": "tests/test_http_api.py",
+      "source_sha256": "a2bb4717c5131b8b9fd1d231991c56d8994f5b8632df1f1385de937f88e50788",
+      "target_sha256": "551100bece531070f2abf60eea698bd8bf4f8fa45e1ac27d801db916e1d12b37"
+    },
+    {
+      "source": "tests/flowerp_boot.test.cjs",
+      "target": "tests/flowerp_boot.test.cjs",
+      "source_sha256": "c2310144ae7b8c5db944dbc477cbd4873bdc3fc07a75469520ffe1743d50fd89",
+      "target_sha256": "c2310144ae7b8c5db944dbc477cbd4873bdc3fc07a75469520ffe1743d50fd89"
+    },
+    {
+      "source": "tests/flowerp_inventory_filter.test.cjs",
+      "target": "tests/flowerp_inventory_filter.test.cjs",
+      "source_sha256": "7ff9765b6dbc4ef4561f6ba67c4548da0ccd023795fb1b79ec0b9876e768766f",
+      "target_sha256": "7ff9765b6dbc4ef4561f6ba67c4548da0ccd023795fb1b79ec0b9876e768766f"
+    },
+    {
+      "source": "tests/flowerp_purchase_recovery.test.cjs",
+      "target": "tests/flowerp_purchase_recovery.test.cjs",
+      "source_sha256": "7ed20a015c97610aaacb9181b40fbadd69c1015ce51ce2dc04f250a74e5f0006",
+      "target_sha256": "7ed20a015c97610aaacb9181b40fbadd69c1015ce51ce2dc04f250a74e5f0006"
+    },
+    {
+      "source": "workbench/api_v2.py",
+      "target": "flowerp/api.py",
+      "source_sha256": "abd6c3b8820bea15dccda960b87ca9d6d1a3994626da6a476ac3789f810ae357",
+      "target_sha256": "b15363ac0ec45a7aec5e12150ed55fbef8f6b0b8898cc2ece3d7e926199df0ab"
+    },
+    {
+      "source": "workbench/server.py",
+      "target": "flowerp/server.py",
+      "source_sha256": "54b74b3c118e8056b78f0a917f7ef3dfb9866120b2614ee28b61ea8e7c1c9dd3",
+      "target_sha256": "19df2d7a0dd33099b6a1a32739d67d29600b6bc48a848ca582f057ec92d2d8ed"
+    },
+    {
+      "source": "eval/cases.py",
+      "target": "eval/cases.py",
+      "source_sha256": "0117d618271d123e40a983fbfc9a1ee311bbad806607bf92b01b6e4ac97636f6",
+      "target_sha256": "a96097a44a8a56763919b7a1b7ecd89b93893f57795c081958566ab6a563ff9d"
+    },
+    {
+      "source": "eval/harness.py",
+      "target": "eval/harness.py",
+      "source_sha256": "93ec5c5a753180c46793969d83af7ddb148479228d311e2a21d5cbc15e1510af",
+      "target_sha256": "abd8ab4d0b226e29f01777398ba0616e4c0e9167f479fbe8ee8e83d739c26eb0"
+    }
+  ],
+  "adaptations": [
+    "Move ERP API and server into flowerp; remove workbench task/course APIs and UI.",
+    "Retain 19 ERP blocking checks and business/HTTP/frontend tests; omit course progression gates."
+  ],
+  "excluded": [
+    "workbench",
+    "workbench_web",
+    "agent",
+    "docs",
+    "runtime databases",
+    "credentials",
+    "generated reports"
+  ]
+}

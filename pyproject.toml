@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "flowerp"
+version = "0.1.0"
+description = "Standalone FlowERP business application"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = []
+
+[project.scripts]
+flowerp = "flowerp.__main__:main"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["flowerp*", "eval*"]
