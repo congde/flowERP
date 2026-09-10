@@ -1,0 +1,16 @@
+**
+!pyproject.toml
+!README.md
+!AGENTS.md
+!flowerp/
+!flowerp/**
+!eval/
+!eval/**
+!web/
+!web/**
+!tests/
+!tests/**
+!deploy/
+!deploy/**
+**/__pycache__
+**/*.pyc

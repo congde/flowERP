@@ -20,4 +20,6 @@ node --test tests/flowerp_boot.test.cjs tests/flowerp_inventory_filter.test.cjs 
 
 工作台项目目录应登记为此仓库的绝对路径；Eval 命令使用此仓库 `.venv` 的 Python，参数为 `-X utf8 -m eval.harness --suite blocking --report-path {report_path}`。候选执行目录必须为本仓库的隔离副本。
 
-`MIGRATION.json` 记录迁入源码的来源与摘要。迁入时拆除了客户页面中的课程任务面板及对应工作台 API，保留 19 项 ERP 阻断检查。旧课程参考实现仍留在 CodexFDE，之后的独立产品开发以本仓库为准。当前分发方式为源码检出加可编辑安装。
+`MIGRATION.json` 记录迁入源码的来源与摘要。迁入时拆除了客户页面中的课程任务面板及对应工作台 API，保留 19 项 ERP 阻断检查。CodexFDE 已移出重复业务目录与客户页面；课程材料及工作台保留在 CodexFDE，业务源码和业务测试以本仓库为准。当前分发方式为源码检出加可编辑安装。
+
+客户管理命令也属于本仓库：`python -m flowerp demo`、`mock-data`、`verify-mock-data`、`init`、`backup`、`verify-backup`、`doctor`、`runtime-status`、`maintenance`。执行 `python -m flowerp --help` 查看参数；初始化和演示会写入指定业务目录，须明确选择目标。容器构建入口是 `deploy/Dockerfile`。

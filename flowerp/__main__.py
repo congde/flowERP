@@ -4,6 +4,10 @@ from .server import serve
 
 
 def main():
+    import sys
+    if len(sys.argv) > 1 and sys.argv[1] != 'serve':
+        from .admin import main as manage
+        return manage()
     parser = argparse.ArgumentParser(description='FlowERP 客户系统')
     parser.add_argument('command', choices=['serve'])
     parser.add_argument('--host', default='127.0.0.1')
